@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <!--========== BOX ICONS LIBRARY ==========-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!--========== Title ==========-->
+    <title>Uninove</title>
+
+    <!--================== LINK THUMBNAIL META TAGS ===================-->
+    <!-- MS Tile - for Microsoft apps-->
+    <meta
+      name="SuperMarioApplication"
+      content="https://www.linkedin.com/in/gabriel-carignato-589a18242/"
+    />
+    <!-- fb & Whatsapp -->
+    <meta property="og:site_name" content="Super Mario" />
+    <meta property="og:title" content="Aplicativo de jogos" />
+    <meta
+      property="og:description"
+      content="Os melhores aplicativos desenvolvidos com critério"
+    />
+    <!-- IMG URL: -->
+    <meta
+      property="og:image"
+      content="https://www.linkedin.com/in/gabriel-carignato-589a18242/"
+    />
+    
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrollTop show-scroll" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <b>
+            Super
+            <span>Mario</span>
+          </b>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">Sobre Nós</a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">Serviços</a>
+            </li>
+            <li class="nav_item">
+              <a href="#foods" class="nav_link">ideias</a>
+            </li>
+            <li class="hidden_item">
+              <a href="#app" class="nav_link">App</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contate-nos</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <!--When clicked activate the class "opened"
+          to the button tag as well to the 4 SVG lines-->
+          <button
+            class="menu"
+            aria-label="Abrir Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+            <svg width="40" height="41" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">Super Mario world Clone</h1>
+            <h2 class="home_subtitle">Uninove</h2>
+            <a href="#foods" class="button">Conheça!</a>
+          </div>
+
+          <img
+            src="img/Mario1.jpg"
+            alt="Prato de comida saudável"
+            class="home_img"
+          />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <span class="section-subtitle about_initial">Sobre Nós</span>
+            <h2 class="section-title about_initial">
+              Trabalho focado para finalização do projeto de um Game nostálgico, que com certeza todos conhecem! O Super Mario. 
+              Acompanhe através do nosso Site um pouco mais sobre...
+            </h2>
+            <p class="about_description">
+              Viaje nesse Mundo conosco!
+            </p>
+            <a href="#app" class="button">Gostou? Veja agora!</a>
+          </div>
+
+          <img
+            src="img/Mario2dd.jpg"
+            alt="Ingredientes naturais"
+            class="about_img"
+          />
+        </div>
+      </section>
+
+      <!--========== SERVICES ==========-->
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Quem somos</span>
+        <h2 class="section-title">O que fazemos de melhor ?</h2>
+
+        <div class="services_container bd-grid">
+          <div class="services_content">
+             </svg>
+
+            <h3 class="services_title">Desenvolvimento de Exelentes aplicativos</h3>
+            <p class="services_description">
+              Os melhores aplicativos, conosco! 
+            </p>
+          </div>
+
+          <div class="services_content">
+           
+
+            <h3 class="services_title">Funcionalidade</h3>
+            <p class="services_description">
+              Não se preocupe com o funcionamento do seu app, tenha certeza de que sempre estará atualizado e com as funcionalidades em dia!
+            </p>
+          </div>
+
+          <div class="services_content">
+            
+
+            <h3 class="services_title">Criatividade</h3>
+            <p class="services_description">
+              Caso não tenha uma ideia certa do que deseja, conte conosco. Faremos o Possível para que saia do jeito que sempre quis!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--========== FOODS ==========-->
+      <section class="foods section bd-container" id="foods">
+        <span class="section-subtitle">Sobre</span>
+        <h2 class="section-title"></h2>
+
+        <div class="foods_container bd-grid">
+          <div class="foods_content">
+            <img src="assets/img/plate1.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Personagem clássico</h3>
+            <span class="foods_detail">O mesmo personagem que você já conhece!</span>
+            
+
+            
+          </div>
+
+          <div class="foods_content">
+            <img src="assets/img/plate2.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Gerador de obstáculos</h3>
+            <span class="foods_detail">Os mesmos obstáculos para te desafiar conforme a progressão!</span>
+            
+          </div>
+
+          <div class="foods_content">
+            <img src="assets/img/plate3.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Gráficos 32 Bits</h3>
+            <span class="foods_detail">Para uma melhor, e mais nostálgica experiência</span>
+            
+          </div>
+        </div>
+      </section>
+
+      <!--===== APP =======-->
+      <section class="app section bd-container" id="app">
+        <div class="app_container bd-grid">
+          <div class="app_data">
+            <span class="section-subtitle app_initial">Comece agora!</span>
+            <h2 class="section-title app_initial">Instale nosso aplicativo</h2>
+            <p class="app_description">
+              Apenas clique abaixo, instale o aplicativo e se divirta como nunca!
+            </p>
+            <div class="app_stores">
+              <a href="#"
+                ><img
+                  src=""
+                  alt=""
+                  class="app_store"
+              /></a>
+              <a href="#"
+                ><img
+                  src="assets/img/appStoreDownload.svg"
+                  alt=""
+                  class="app_store"
+              /></a>
+            </div>
+          </div>
+
+          <img src="assets/img/movil-app.png" alt="" class="app_img" />
+        </div>
+      </section>
+
+      <!--========== CONTACT US ==========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact_container bd-grid">
+          <div class="contact_data">
+            <span class="section-subtitle contact_initial"
+              >Vamos conversar?</span
+            >
+            <h2 class="section-title contact_initial">Contate-nos</h2>
+            <p class="contact_description">
+              Precisa de alguma ajuda para usar o aplicativo? Não pense duas vezes antes de entrar em contato com o nosso time de desenvolvedores. 
+            </p>
+          </div>
+
+          <div class="contact_button">
+            <a href="#" class="button">Entrar em Contato</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer_container bd-grid">
+        <div class="footer_content">
+          <b class="footer_logo">
+            Super 
+            <span>Mario Clone!</span>
+          </b>
+
+          <span class="footer_description">O melhor serviço, pra você. </span>
+
+          <div>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Informações</h3>
+          <ul>
+            <li><a href="#" class="footer_link"></a></li>
+            <li><a href="#" class="footer_link">Política de Privacidade</a></li>
+            <li><a href="#" class="footer_link">Termos de serviço</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Endereço</h3>
+          <ul>
+            <li>São Paulo - Brasil</li>
+            <li>Uninove</li>
+            
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Navegação</h3>
+          <ul>
+            <li><a href="#app" class="footer_link">Download</a></li>
+            <li><a href="#contact" class="footer_link">Contate-nos</a></li>
+            <li><a href="#foods" class="footer_link">Desenvolvimento do App</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer_copy">
+        &#169; Feito em 2023, por
+        <a
+          href="https://www.linkedin.com/in/gabriel-carignato-589a18242/"
+          class="footer_link"
+          target="_blank"
+        >
+          Gabriel carignato Morais de castro
+        </a>
+      </p>
+    </footer>
+
+    <!--========== SCROLL REVEAL LIBRARY ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
